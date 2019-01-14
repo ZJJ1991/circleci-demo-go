@@ -12,7 +12,7 @@ jobs: # basic units of work in a run
 
     # directory where steps are run. Path must conform to the Go Workspace requirements
     working_directory: /go/src/github.com/CircleCI-Public/circleci-demo-go
-
+    # write anything
     environment: # environment variables for the build itself
       TEST_RESULTS: /tmp/test-results # path to where test results will be saved
 
